@@ -6,13 +6,13 @@ public class Control extends JavaPlugin {
 
 	@Override
 	public void onDisable() {
-		// TODO 自動生成されたメソッド・スタブ
+
 		super.onDisable();
 	}
 
 	@Override
 	public void onEnable() {
-		// TODO 自動生成されたメソッド・スタブ
+
 		super.onEnable();
 
 		getCommand("tp-above").setExecutor(new TPAboveCom());
