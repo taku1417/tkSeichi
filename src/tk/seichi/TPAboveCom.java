@@ -34,7 +34,7 @@ public class TPAboveCom implements CommandExecutor {
 			//文字列として入力された数値をdoubleに変換(例外処理)、代入
 			double input = -1;
 			try {
-				input = Integer.parseInt(args[0]);
+				input = Double.parseDouble(args[0]);
 			}
 			catch (NumberFormatException ex) {
 				sender.sendMessage(" "+args[0]+" は無効です。正しい数字を指定してください。");
@@ -49,7 +49,7 @@ public class TPAboveCom implements CommandExecutor {
 			player = (Player)sender;
 			y = player.getLocation();
 			y.add(0,dis,0);
-			//飛ばす(入力値によって変わる
+			//飛ばす(入力値によって変わる)
 			player.teleport(y, PlayerTeleportEvent.TeleportCause.PLUGIN);
 			break;
 
