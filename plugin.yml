@@ -1,8 +1,8 @@
 name: tkSeichi
-version: 0.1.0
+version: 0.1.1
 main: tk.seichi.Control
 commands:
   tp-above:
     description:  player wo siteiblock ue ni tobasu.
-    usage: /<command> [distance] (default 20 block)
+    usage: /<command> [distance] (デフォルトは20ブロック)
     default:  true
